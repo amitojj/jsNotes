@@ -3,10 +3,11 @@
 // }
 
 // // ─── Array From Number ─────────────────────────────────────────────────── ✣ ─
-// const num = 7;
-// const arr = Array.from({ length: num }, (_, Index) => {
-//   return Index + 1;
-// });
+const num = 7;
+const arr = Array.from({ length: num }, (_, Index) => {
+  return Index + 1;
+});
+console.log(arr);
 
 // ─── Reduce ────────────────────────────────────────────────────────────── ✣ ─
 console.log(factorial(5));
